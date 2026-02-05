@@ -1,77 +1,230 @@
-# Ramayana Game Plan (Draft)
+# Ramayana Game Plan (Combined)
 
 ## 1) Vision & Goals
-- **Game vision:** _TBD_
-- **Primary goal:** _TBD_ (e.g., story-first, combat-first, exploration-first)
-- **Target audience:** _TBD_ (age range, platform expectations)
-- **Success criteria:** _TBD_ (e.g., MVP scope, playtime, learning outcomes)
+- **Game vision:** Build a complete, playable, high-end aesthetic game inspired by the authentic journeys of Rāma and Hanumān, grounded in Vālmīki Rāmāyaṇa with no fantasy distortion and strict respect for chronology, symbolism, and dharma.
+- **Primary goal:** Story-locked, narrative-first action-adventure that uses mechanics only in service of dharma and story.
+- **Target audience:** Players seeking cinematic, spiritual realism and respectful adaptation of classical source material.
+- **Success criteria:** Deliver a vertical slice (Prologue) that meets the quality bar; proceed only if it succeeds.
 
 ## 2) Core Pillars
-- **Narrative authenticity:** _TBD_
-- **Gameplay loop:** _TBD_ (e.g., explore → quest → combat → upgrade)
-- **Visual style:** _TBD_ (2D/3D, stylized/realistic)
-- **Tone:** _TBD_ (epic, educational, family-friendly, etc.)
+- **Narrative authenticity:** Canonical events, minimal dialogue, grounded tone, silence used intentionally.
+- **Gameplay loop:** Explore → observe → restrained combat → story event → reflection.
+- **Visual style:** Semi-stylized realism with painterly, spiritual aesthetics.
+- **Tone:** Serene → heroic → tragic → transcendent.
 
 ## 3) Game Overview
-- **Genre:** _TBD_
-- **Perspective:** _TBD_ (side-scroller, third-person, isometric, etc.)
-- **Platforms:** _TBD_
-- **Controls:** _TBD_
+- **Genre:** Third-person action-adventure + narrative exploration.
+- **Perspective:** God-of-War-style close third person with cinematic cuts.
+- **Platforms:** Android (primary). iOS optional after vertical slice passes.
+- **Controls:** Mobile-optimized third-person over-the-shoulder, left virtual joystick + right context buttons.
 
 ## 4) Story & Setting
-- **Scope of the Ramayana:** _TBD_ (full epic vs. selected arcs)
+- **Scope of the Ramayana:** Canonical arcs only, from Ayodhyā prologue to return/epilogue.
 - **Key story arcs:**
-  - _TBD_
-- **Primary protagonist(s):** _TBD_
-- **Key antagonists:** _TBD_
-- **Supporting characters:** _TBD_
-- **World locations:** _TBD_
+  - Prologue: Ayodhyā at dawn (child Rāma)
+  - Act I: Exile, forest life, protection of sages
+  - Act II: Search, alliance with Sugrīva, introduction of Hanumān
+  - Act III: Lankā infiltration (Hanumān arc)
+  - Act IV: War
+  - Epilogue: Return, silence, rain
+- **Primary protagonist(s):** Child Rāma (prologue) → Adult Rāma (Act I onward); Hanumān unlocks in Act II/III.
+- **Key antagonists:** Rākṣasas, Rāvaṇa (presented with restraint, no spectacle).
+- **Supporting characters:** Sītā, Lakṣmaṇa, Daśaratha, Kaikeyī, Sugrīva.
+- **World locations:** Ayodhyā, Chitrakūṭa, Daṇḍakāraṇya, forest hubs, Lankā, battlefield.
 
 ## 5) Characters & Progression
-- **Playable characters:** _TBD_
-- **Abilities/skills:** _TBD_
-- **Progression system:** _TBD_ (leveling, skill tree, equipment)
+- **Playable characters (sequential only):**
+  - **Act I — Rāma:** Calm, restrained combat, bow mastery, dharma-based choices.
+  - **Act II — Hanumān (unlock):** Speed, strength, devotion-powered abilities; parkour, leaps, stealth, aerial combat.
+- **Character switching:** Only when story demands. No free swapping.
+- **Progression system:** Story-locked; no grinding before destiny events.
 
 ## 6) Gameplay Systems
-- **Combat system:** _TBD_ (real-time, turn-based, combo)
-- **Exploration:** _TBD_ (open world, hub-and-spoke, linear)
-- **Quests/Missions:** _TBD_
-- **Puzzles/Mini-games:** _TBD_
-- **Crafting/Upgrades:** _TBD_
+- **Combat system:** Skill-based, deliberate, stamina-driven; enemies punish button-mashing; bosses test restraint, not DPS.
+- **Dharma system (core):** Invisible moral meter; actions affect world tone, NPC reactions, and music; no UI numbers.
+- **Exploration:** Sacred spaces reward silence; stillness restores color and sound; overuse of violence dulls them.
+- **Quests/Missions:** No fetch quests; all activities must serve story or dharma.
+- **Puzzles/Mini-games:** Only if they serve narrative or dharma; keep minimal.
+- **Crafting/Upgrades:** Only if canonical and in service of the story (avoid power fantasy).
 
 ## 7) Art & Audio Direction
-- **Art style:** _TBD_
-- **Characters concept:** _TBD_
-- **Environment concept:** _TBD_
-- **Audio style:** _TBD_ (orchestral, traditional instruments)
-- **Voiceover/localization:** _TBD_ (languages)
+- **Global aesthetic:** Cinematic, painterly, spiritual realism. Semi-stylized for mobile performance.
+- **Color palette evolution:**
+  - **Ayodhyā:** Gold, white, pale saffron, sky blue.
+  - **Forest:** Deep greens, browns, muted blues, mist.
+  - **Lankā:** Crimson, obsidian, stone gray, ash white.
+- **Character design:** Classical sculpture + realism. No exaggerated muscles or glowing eyes unless scripturally justified.
+- **Transitions:** Gradual, guided by color grading rather than dialogue.
+- **Audio style:** Sanskrit shlokas as low-volume ambience; dynamic score reacts to dharma; silence after major events.
+- **Voiceover/localization:** Minimal dialogue; subtitles mandatory.
 
-## 8) MVP Scope (First Playable)
-- **Playable slice:** _TBD_ (e.g., exile → forest arc → first boss)
-- **Key features included:**
-  - _TBD_
-- **Out of scope for MVP:**
-  - _TBD_
+## 8) Mobile-Specific Design Rules (Non-Negotiable)
+- **Engine:** Unity (URP), fixed.
+- **Performance:** 30–45 FPS stable; stylized realism over photorealism.
+- **Level structure:** Semi-open hubs, linear story flow, hidden loading via forest turns/caves/cinematic pauses.
+- **Combat:** Proximity lock-on, slow readable attacks, dodge over spam, boss phases not crowds.
+- **UI:** Minimal and nearly invisible.
 
-## 9) Production Plan
-- **Milestones:**
-  1. _TBD_ (Pre-production)
-  2. _TBD_ (Vertical slice)
-  3. _TBD_ (Alpha)
-  4. _TBD_ (Beta)
-  5. _TBD_ (Launch)
-- **Team roles needed:** _TBD_
-- **Estimated timeline:** _TBD_
+## 9) Story Structure (Mandatory)
+- **Prologue:** Ayodhyā at dawn; silent playable walk as child Rāma.
+- **Act I — Exile:** Forest traversal, protect sages, Sītā abduction (non-playable cinematic).
+- **Act II — Search:** Alliance with Sugrīva, Hanumān introduction, emotional low point.
+- **Act III — Lankā (Hanumān Arc):** Solo stealth mission, burning of Lankā as moral burden.
+- **Act IV — War:** Scale increases, no gore or glorification.
+- **Epilogue:** Return, rain, silence, peace over triumph.
 
-## 10) Open Questions (Need Your Input)
-1. What platforms are you targeting (PC, mobile, console, web)?
-2. What visual style do you want (2D/3D, stylized/realistic)?
-3. Which arc(s) of the Ramayana should we include first?
-4. Who is the primary playable character (Rama, Lakshmana, Sita, Hanuman, multi-hero)?
-5. What kind of gameplay loop do you want (combat-heavy, story-driven, exploration)?
-6. Do you want educational/cultural notes inside the game?
-7. What scope should the MVP include?
+## 10) Cinematic Scene List (Minimal Dialogue)
+0. **Ayodhyā at Dawn (Playable Cinematic):** Child Rāma walks; guard bows; flower falls; Rāma does not touch it.
+1. **The Decree:** Daśaratha: “I gave my word.” Kaikeyī: “Then keep it.” Rāma: “I will go.” Silence.
+2. **Exile Departure:** Player walks Rāma to gate; crowd parts; Lakṣmaṇa: “Where you go, I go.”
+3. **Forest Years (Montage):** Camps built, sages protected, seasons pass; wind + tanpura drone.
+4. **Sītā Abduction:** Helpless cinematic; Rāma kneels, touches ground, no tears.
+5. **Meeting Hanumān:** “I am a servant. Speak, and I will act.” → “Stand. Walk with me.”
+6. **Lankā Infiltration:** Playable stealth; Hanumān steadies himself before Sītā.
+7. **Burning of Lankā:** Forced-path; “This is not victory.”
+8. **War:** Controlled cinematic + gameplay; no glory music; Rāma does not watch arrow land.
+9. **Return:** Rain, mud, silence; fade before coronation.
+
+## 11) Art Mood Reference (Fixed Order)
+1. **Soft Dawn Watercolor — Ayodhyā / Child Rāma**
+   - Palette: ivory, gold, pale saffron, sky blue.
+   - Lighting: diffused sunrise, long shadows.
+   - Rule: No sharp edges, no heavy contrast, no dramatic camera moves.
+2. **Forest Mist Oil-Paint Style — Exile / Search**
+   - Palette: deep greens, browns, muted blues.
+   - Lighting: volumetric fog, filtered sunlight.
+   - Rule: Violence desaturates; stillness restores color.
+3. **Temple Sculpture Realism — Lankā / War / Epilogue**
+   - Palette: stone gray, crimson, obsidian, ash white.
+   - Lighting: hard directional, deep shadows.
+   - Rule: No spectacle without consequence; fire is burdensome, not thrilling.
+
+## 12) Technical Requirements
+- **Engine:** Unity (URP).
+- **Level design:** Modular, semi-open hubs.
+- **Save points:** Narrative rests only.
+- **Input:** Controller + keyboard support; mobile touch controls primary.
+- **Subtitles:** Mandatory.
+
+## 13) Quality Bar (Non-Negotiable)
+- No fetch quests.
+- No mythology fusion.
+- No power fantasy that disrespects humility.
+- Every mechanic must serve story or dharma.
+
+## 14) Development Sequence (Do Not Skip)
+1. **Phase 1 — Vertical Slice:** Prologue (Ayodhyā walk), one forest combat, one cinematic.
+   - **Gate:** If this fails, the project stops.
+2. **Phase 2 — Act I (Rāma):** Exile, forest hubs, dharma system.
+3. **Phase 3 — Act II–III (Hanumān):** Movement-heavy gameplay, Lankā stealth mission.
+4. **Phase 4 — War + Epilogue:** Scaled battle, controlled spectacle, silent ending.
+
+## 15) Output Required from Agents
+1. Full game design document.
+2. Chapter-wise level breakdown.
+3. Combat system spec.
+4. Art bible.
+5. Audio plan.
+6. Playable vertical slice (Prologue).
+
+## 16) Unity Project Structure (Draft)
+```
+Assets/
+ ├── Art/
+ │    ├── Characters/
+ │    ├── Environments/
+ │    ├── UI/
+ │    └── VFX/
+ ├── Audio/
+ │    ├── Music/
+ │    ├── Ambient/
+ │    └── VO/
+ ├── Scenes/
+ │    ├── Prologue/
+ │    ├── Forest/
+ │    ├── Lanka/
+ │    └── War/
+ ├── Scripts/
+ │    ├── Core/
+ │    ├── Characters/
+ │    ├── Combat/
+ │    ├── Dharma/
+ │    └── Cinematics/
+ └── Shaders/
+```
+
+## 17) Core Script Skeletons (Draft)
+```csharp
+public abstract class PlayerController : MonoBehaviour
+{
+    protected float stamina;
+
+    public abstract void Move(Vector2 input);
+    public abstract void Act();
+}
+```
+
+```csharp
+public class RamaController : PlayerController
+{
+    public override void Act()
+    {
+        // Bow aim or defend
+    }
+}
+```
+
+```csharp
+public class HanumanController : PlayerController
+{
+    public override void Act()
+    {
+        // Leap, climb, stealth
+    }
+}
+```
+
+```csharp
+public class DharmaSystem : MonoBehaviour
+{
+    private float dharmaState;
+
+    public void RegisterAction(bool restrained)
+    {
+        dharmaState += restrained ? 1f : -1f;
+        UpdateWorld();
+    }
+
+    void UpdateWorld()
+    {
+        // Color grading, audio layers, NPC reactions
+    }
+}
+```
+
+```csharp
+public class CinematicTrigger : MonoBehaviour
+{
+    public void PlayCinematic(string id)
+    {
+        // Lock control
+        // Play timeline
+    }
+}
+```
+
+## 18) AI Art Prompts (One Prompt Per Asset)
+- **Ayodhyā Environment:**
+  > Semi-stylized ancient Indian city at dawn, soft watercolor lighting, ivory and gold palette, calm symmetrical architecture, minimal detail, spiritual realism, painterly textures, mobile-optimized, no fantasy exaggeration
+- **Forest Environment:**
+  > Dense Indian forest with morning mist, oil-paint texture style, layered depth, volumetric fog, muted greens and browns, sacred atmosphere, grounded realism, no saturation, cinematic lighting
+- **Lankā Environment:**
+  > Ancient fortified city carved like temple sculpture, obsidian stone, crimson accents, heavy shadows, dramatic but restrained lighting, moral weight atmosphere, realistic proportions, no fantasy glow
+- **Rāma Character:**
+  > Calm warrior prince, restrained posture, simple dhoti and bow, classical Indian sculpture proportions, serene expression, semi-stylized realism, no exaggerated muscles, no glowing effects
+- **Hanumān Character:**
+  > Humble devoted warrior, athletic but controlled build, expressive eyes, traditional ornaments minimal, movement-ready design, semi-stylized realism, grounded and respectful depiction
 
 ---
 
-If you provide the details, I will fill in this plan and move to the next steps.
+If you want edits or additions, share them and I will update this combined plan.
