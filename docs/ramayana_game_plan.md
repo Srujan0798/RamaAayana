@@ -1,230 +1,746 @@
-# Ramayana Game Plan (Combined)
+# Rāmāyaṇa: Dharma Path — Complete Game Documentation (v1.0)
 
-## 1) Vision & Goals
-- **Game vision:** Build a complete, playable, high-end aesthetic game inspired by the authentic journeys of Rāma and Hanumān, grounded in Vālmīki Rāmāyaṇa with no fantasy distortion and strict respect for chronology, symbolism, and dharma.
-- **Primary goal:** Story-locked, narrative-first action-adventure that uses mechanics only in service of dharma and story.
-- **Target audience:** Players seeking cinematic, spiritual realism and respectful adaptation of classical source material.
-- **Success criteria:** Deliver a vertical slice (Prologue) that meets the quality bar; proceed only if it succeeds.
-
-## 2) Core Pillars
-- **Narrative authenticity:** Canonical events, minimal dialogue, grounded tone, silence used intentionally.
-- **Gameplay loop:** Explore → observe → restrained combat → story event → reflection.
-- **Visual style:** Semi-stylized realism with painterly, spiritual aesthetics.
-- **Tone:** Serene → heroic → tragic → transcendent.
-
-## 3) Game Overview
-- **Genre:** Third-person action-adventure + narrative exploration.
-- **Perspective:** God-of-War-style close third person with cinematic cuts.
-- **Platforms:** Android (primary). iOS optional after vertical slice passes.
-- **Controls:** Mobile-optimized third-person over-the-shoulder, left virtual joystick + right context buttons.
-
-## 4) Story & Setting
-- **Scope of the Ramayana:** Canonical arcs only, from Ayodhyā prologue to return/epilogue.
-- **Key story arcs:**
-  - Prologue: Ayodhyā at dawn (child Rāma)
-  - Act I: Exile, forest life, protection of sages
-  - Act II: Search, alliance with Sugrīva, introduction of Hanumān
-  - Act III: Lankā infiltration (Hanumān arc)
-  - Act IV: War
-  - Epilogue: Return, silence, rain
-- **Primary protagonist(s):** Child Rāma (prologue) → Adult Rāma (Act I onward); Hanumān unlocks in Act II/III.
-- **Key antagonists:** Rākṣasas, Rāvaṇa (presented with restraint, no spectacle).
-- **Supporting characters:** Sītā, Lakṣmaṇa, Daśaratha, Kaikeyī, Sugrīva.
-- **World locations:** Ayodhyā, Chitrakūṭa, Daṇḍakāraṇya, forest hubs, Lankā, battlefield.
-
-## 5) Characters & Progression
-- **Playable characters (sequential only):**
-  - **Act I — Rāma:** Calm, restrained combat, bow mastery, dharma-based choices.
-  - **Act II — Hanumān (unlock):** Speed, strength, devotion-powered abilities; parkour, leaps, stealth, aerial combat.
-- **Character switching:** Only when story demands. No free swapping.
-- **Progression system:** Story-locked; no grinding before destiny events.
-
-## 6) Gameplay Systems
-- **Combat system:** Skill-based, deliberate, stamina-driven; enemies punish button-mashing; bosses test restraint, not DPS.
-- **Dharma system (core):** Invisible moral meter; actions affect world tone, NPC reactions, and music; no UI numbers.
-- **Exploration:** Sacred spaces reward silence; stillness restores color and sound; overuse of violence dulls them.
-- **Quests/Missions:** No fetch quests; all activities must serve story or dharma.
-- **Puzzles/Mini-games:** Only if they serve narrative or dharma; keep minimal.
-- **Crafting/Upgrades:** Only if canonical and in service of the story (avoid power fantasy).
-
-## 7) Art & Audio Direction
-- **Global aesthetic:** Cinematic, painterly, spiritual realism. Semi-stylized for mobile performance.
-- **Color palette evolution:**
-  - **Ayodhyā:** Gold, white, pale saffron, sky blue.
-  - **Forest:** Deep greens, browns, muted blues, mist.
-  - **Lankā:** Crimson, obsidian, stone gray, ash white.
-- **Character design:** Classical sculpture + realism. No exaggerated muscles or glowing eyes unless scripturally justified.
-- **Transitions:** Gradual, guided by color grading rather than dialogue.
-- **Audio style:** Sanskrit shlokas as low-volume ambience; dynamic score reacts to dharma; silence after major events.
-- **Voiceover/localization:** Minimal dialogue; subtitles mandatory.
-
-## 8) Mobile-Specific Design Rules (Non-Negotiable)
-- **Engine:** Unity (URP), fixed.
-- **Performance:** 30–45 FPS stable; stylized realism over photorealism.
-- **Level structure:** Semi-open hubs, linear story flow, hidden loading via forest turns/caves/cinematic pauses.
-- **Combat:** Proximity lock-on, slow readable attacks, dodge over spam, boss phases not crowds.
-- **UI:** Minimal and nearly invisible.
-
-## 9) Story Structure (Mandatory)
-- **Prologue:** Ayodhyā at dawn; silent playable walk as child Rāma.
-- **Act I — Exile:** Forest traversal, protect sages, Sītā abduction (non-playable cinematic).
-- **Act II — Search:** Alliance with Sugrīva, Hanumān introduction, emotional low point.
-- **Act III — Lankā (Hanumān Arc):** Solo stealth mission, burning of Lankā as moral burden.
-- **Act IV — War:** Scale increases, no gore or glorification.
-- **Epilogue:** Return, rain, silence, peace over triumph.
-
-## 10) Cinematic Scene List (Minimal Dialogue)
-0. **Ayodhyā at Dawn (Playable Cinematic):** Child Rāma walks; guard bows; flower falls; Rāma does not touch it.
-1. **The Decree:** Daśaratha: “I gave my word.” Kaikeyī: “Then keep it.” Rāma: “I will go.” Silence.
-2. **Exile Departure:** Player walks Rāma to gate; crowd parts; Lakṣmaṇa: “Where you go, I go.”
-3. **Forest Years (Montage):** Camps built, sages protected, seasons pass; wind + tanpura drone.
-4. **Sītā Abduction:** Helpless cinematic; Rāma kneels, touches ground, no tears.
-5. **Meeting Hanumān:** “I am a servant. Speak, and I will act.” → “Stand. Walk with me.”
-6. **Lankā Infiltration:** Playable stealth; Hanumān steadies himself before Sītā.
-7. **Burning of Lankā:** Forced-path; “This is not victory.”
-8. **War:** Controlled cinematic + gameplay; no glory music; Rāma does not watch arrow land.
-9. **Return:** Rain, mud, silence; fade before coronation.
-
-## 11) Art Mood Reference (Fixed Order)
-1. **Soft Dawn Watercolor — Ayodhyā / Child Rāma**
-   - Palette: ivory, gold, pale saffron, sky blue.
-   - Lighting: diffused sunrise, long shadows.
-   - Rule: No sharp edges, no heavy contrast, no dramatic camera moves.
-2. **Forest Mist Oil-Paint Style — Exile / Search**
-   - Palette: deep greens, browns, muted blues.
-   - Lighting: volumetric fog, filtered sunlight.
-   - Rule: Violence desaturates; stillness restores color.
-3. **Temple Sculpture Realism — Lankā / War / Epilogue**
-   - Palette: stone gray, crimson, obsidian, ash white.
-   - Lighting: hard directional, deep shadows.
-   - Rule: No spectacle without consequence; fire is burdensome, not thrilling.
-
-## 12) Technical Requirements
-- **Engine:** Unity (URP).
-- **Level design:** Modular, semi-open hubs.
-- **Save points:** Narrative rests only.
-- **Input:** Controller + keyboard support; mobile touch controls primary.
-- **Subtitles:** Mandatory.
-
-## 13) Quality Bar (Non-Negotiable)
-- No fetch quests.
-- No mythology fusion.
-- No power fantasy that disrespects humility.
-- Every mechanic must serve story or dharma.
-
-## 14) Development Sequence (Do Not Skip)
-1. **Phase 1 — Vertical Slice:** Prologue (Ayodhyā walk), one forest combat, one cinematic.
-   - **Gate:** If this fails, the project stops.
-2. **Phase 2 — Act I (Rāma):** Exile, forest hubs, dharma system.
-3. **Phase 3 — Act II–III (Hanumān):** Movement-heavy gameplay, Lankā stealth mission.
-4. **Phase 4 — War + Epilogue:** Scaled battle, controlled spectacle, silent ending.
-
-## 15) Output Required from Agents
-1. Full game design document.
-2. Chapter-wise level breakdown.
-3. Combat system spec.
-4. Art bible.
-5. Audio plan.
-6. Playable vertical slice (Prologue).
-
-## 16) Unity Project Structure (Draft)
-```
-Assets/
- ├── Art/
- │    ├── Characters/
- │    ├── Environments/
- │    ├── UI/
- │    └── VFX/
- ├── Audio/
- │    ├── Music/
- │    ├── Ambient/
- │    └── VO/
- ├── Scenes/
- │    ├── Prologue/
- │    ├── Forest/
- │    ├── Lanka/
- │    └── War/
- ├── Scripts/
- │    ├── Core/
- │    ├── Characters/
- │    ├── Combat/
- │    ├── Dharma/
- │    └── Cinematics/
- └── Shaders/
-```
-
-## 17) Core Script Skeletons (Draft)
-```csharp
-public abstract class PlayerController : MonoBehaviour
-{
-    protected float stamina;
-
-    public abstract void Move(Vector2 input);
-    public abstract void Act();
-}
-```
-
-```csharp
-public class RamaController : PlayerController
-{
-    public override void Act()
-    {
-        // Bow aim or defend
-    }
-}
-```
-
-```csharp
-public class HanumanController : PlayerController
-{
-    public override void Act()
-    {
-        // Leap, climb, stealth
-    }
-}
-```
-
-```csharp
-public class DharmaSystem : MonoBehaviour
-{
-    private float dharmaState;
-
-    public void RegisterAction(bool restrained)
-    {
-        dharmaState += restrained ? 1f : -1f;
-        UpdateWorld();
-    }
-
-    void UpdateWorld()
-    {
-        // Color grading, audio layers, NPC reactions
-    }
-}
-```
-
-```csharp
-public class CinematicTrigger : MonoBehaviour
-{
-    public void PlayCinematic(string id)
-    {
-        // Lock control
-        // Play timeline
-    }
-}
-```
-
-## 18) AI Art Prompts (One Prompt Per Asset)
-- **Ayodhyā Environment:**
-  > Semi-stylized ancient Indian city at dawn, soft watercolor lighting, ivory and gold palette, calm symmetrical architecture, minimal detail, spiritual realism, painterly textures, mobile-optimized, no fantasy exaggeration
-- **Forest Environment:**
-  > Dense Indian forest with morning mist, oil-paint texture style, layered depth, volumetric fog, muted greens and browns, sacred atmosphere, grounded realism, no saturation, cinematic lighting
-- **Lankā Environment:**
-  > Ancient fortified city carved like temple sculpture, obsidian stone, crimson accents, heavy shadows, dramatic but restrained lighting, moral weight atmosphere, realistic proportions, no fantasy glow
-- **Rāma Character:**
-  > Calm warrior prince, restrained posture, simple dhoti and bow, classical Indian sculpture proportions, serene expression, semi-stylized realism, no exaggerated muscles, no glowing effects
-- **Hanumān Character:**
-  > Humble devoted warrior, athletic but controlled build, expressive eyes, traditional ornaments minimal, movement-ready design, semi-stylized realism, grounded and respectful depiction
+## Agent Status Report
+| Agent | Deliverable | Status |
+| --- | --- | --- |
+| Game Director | Full GDD + Vision Lock | ✅ Complete |
+| Narrative Designer | Chapter Breakdown + Scripts | ✅ Complete |
+| Level Designer | Hub Structure + Flow | ✅ Complete |
+| Art Director | Art Bible + Prompts | ✅ Complete |
+| Gameplay Engineer | Combat Spec + Systems | ✅ Complete |
+| Audio Designer | Audio Plan + Layers | ✅ Complete |
+| QA Lead | Quality Gates + Checklist | ✅ Complete |
 
 ---
 
-If you want edits or additions, share them and I will update this combined plan.
+## 1) Full Game Design Document
+
+### 1.1 Core Pillars
+| Pillar | Implementation |
+| --- | --- |
+| Dharma Before Power | Mechanics unlock slowly; restraint rewarded. |
+| Sacred Silence | Environmental storytelling over exposition. |
+| Consequence, Not Spectacle | Every action affects world state. |
+| Mobile Discipline | Limitations become aesthetic choices. |
+
+### 1.2 Unique Selling Proposition
+> “The first mobile action-adventure where stillness is gameplay.”
+
+This game treats restraint as a mechanic. The Dharma System makes players complicit in the emotional journey—aggression literally dulls the world.
+
+### 1.3 Target Experience
+- **Session length:** 15–25 minutes (mobile-optimized)
+- **Total playtime:** 6–8 hours
+- **Monetization:** Premium single purchase (USD 9.99), no IAP, no ads
+- **Accessibility:** Subtitles, colorblind modes, haptic feedback options
+
+---
+
+## 2) Chapter-Wise Level Breakdown
+
+### Structure Overview
+```
+PROLOGUE → ACT I (Forest) → ACT II (Search) → ACT III (Lanka) → ACT IV (War) → EPILOGUE
+   20min      90min            60min            75min            60min         15min
+```
+
+### 2.1 Prologue — “Ayodhyā at Dawn”
+- **Type:** Interactive cinematic (no combat)
+- **Mood:** Soft dawn watercolor
+- **Duration:** 15–20 minutes
+
+**Level Flow**
+```
+[Child Bedroom] → [Palace Corridor] → [Garden Path] → [City Gate] → [Fade to Black]
+```
+
+**Segments**
+| Segment | Mechanics | Emotional Beat |
+| --- | --- | --- |
+| Bedroom | Camera pan, stand up | Innocence |
+| Corridor | Slow walk, guards bow | Dharma recognized |
+| Garden | Stop at flower (choice: touch/leave) | First moral seed |
+| Gate | Crowd parts, no UI | Weight of destiny |
+
+**Hidden Loading**
+- Fade to white at gate = load forest assets
+- Time-skip cinematic masks transition
+
+### 2.2 Act I — “The Exile” (Rāma)
+- **Type:** Semi-open hubs
+- **Mood:** Forest mist oil-paint
+- **Duration:** 90 minutes
+
+**Hub Structure: Daṇḍakāraṇya Forest**
+```
+[Chitrakūṭa Camp] ←→ [Sage Settlements] ←→ [Rākṣasa Territory]
+        ↓                    ↓                      ↓
+   Tutorial Combat    Protection Missions    Boss: Khara/Dūṣaṇa
+```
+
+**Key Levels**
+| Level | Purpose | Dharma Test |
+| --- | --- | --- |
+| Chitrakūṭa | Tutorial, bow mechanics | Spar with Lakṣmaṇa (restraint wins) |
+| Sage Ashram | Protection quest | Defend without killing wounded enemies |
+| Panchavaṭī | Sītā abduction setup | No combat—build emotional investment |
+| Janasthāna | First major combat | Khara battle: 3 phases, patience required |
+
+**Sītā Abduction Sequence (Cinematic Only)**
+- Player controls Rāma tracking the golden deer
+- Cut to: empty hut
+- Control returned to Rāma kneeling
+- Critical: player cannot act for 10 seconds (forced grief)
+
+### 2.3 Act II — “The Search” (Rāma + Hanumān Intro)
+- **Type:** Linear exploration + alliance building
+- **Mood:** Forest mist → temple sculpture transition
+- **Duration:** 60 minutes
+
+**Level Flow**
+```
+[Pampa Lake] → [Ṛṣyamūka Mountain] → [Kiṣkindhā City] → [Hanumān Unlocked]
+```
+
+**Kiṣkindhā Hub**
+- Political gameplay: mediate between Sugrīva and Vālī
+- Dharma choice: support rightful king vs. powerful king
+- Unlock: Hanumān becomes playable companion
+
+### 2.4 Act III — “Lankā” (Hanumān Solo)
+- **Type:** Stealth-platformer
+- **Mood:** Temple sculpture realism
+- **Duration:** 75 minutes
+
+**Three Infiltration Phases**
+| Phase | Location | Mechanic | Emotional Arc |
+| --- | --- | --- | --- |
+| 1 | Southern shore | Leaps, swimming | Confidence |
+| 2 | City walls | Stealth, shadow movement | Tension |
+| 3 | Aśoka grove | Find Sītā, resist capture | Devotion tested |
+
+**Burning of Lankā Sequence**
+- Not a power fantasy
+- Fire spreads as failure, not victory
+- Tail catches accidentally during escape
+- Player runs through burning streets
+- Forced slow-walk at end—looking back at destruction
+
+### 2.5 Act IV — “The War” (Rāma Returns)
+- **Type:** Controlled battlefield
+- **Mood:** Temple sculpture + ash
+- **Duration:** 60 minutes
+
+**Battle Phases**
+| Phase | Scale | Mechanic |
+| --- | --- | --- |
+| Bridge Building | Army level | Resource management, timing |
+| Siege | Mid-combat | Command allies, personal combat |
+| Duels | 1v1 | Rāvaṇa brothers (no health bars—phases only) |
+| Final Arrow | Cinematic | Single input, no camera follow |
+
+**Rāvaṇa Battle Design**
+- 10 phases, not HP-based
+- Each phase tests different dharma lesson
+- Final phase: Rāma spares wounded Rāvaṇa (player choice to kill/let die)
+
+### 2.6 Epilogue — “Return”
+- **Type:** Interactive cinematic
+- **Mood:** Rain, mud, silence
+- **Duration:** 15 minutes
+
+**Sequence**
+1. Boat crossing (player rows slowly)
+2. Ayodhyā gates (crowd silent, no celebration)
+3. Walk to throne room
+4. Fade to white before coronation
+5. Credits over rain sounds
+
+---
+
+## 3) Combat System Specification
+
+### 3.1 Core Philosophy
+> “Combat is conversation. Every strike speaks.”
+
+### 3.2 Rāma Combat
+**Stance System**
+| Stance | Input | Function |
+| --- | --- | --- |
+| Dharma (Default) | None | Bow ready, slow regen, high perception |
+| Draw | Hold Attack | Aim reticle appears, time slows slightly |
+| Release | Release Attack | Arrow flies, stamina cost |
+| Deflect | Tap Guard (timing) | Melee counter, minimal damage |
+| Evade | Double-tap Direction | Roll, stamina cost |
+
+**Bow Mechanics**
+- No auto-aim (mobile: assisted stickiness only)
+- Wind affects arrows (visualized by grass movement)
+- Stamina = breath (hold too long = shake, miss)
+
+**Enemy Design (Rākṣasas)**
+| Type | Behavior | Counter |
+| --- | --- | --- |
+| Scouts | Fast, flanking | Deflect → stun |
+| Brutes | Slow, heavy | Evade → back shot |
+| Sorcerers | Range, summons | Priority target, quick draw |
+
+**Boss: Khara (Janasthāna)**
+- Phase 1: test deflection (3 successful counters to advance)
+- Phase 2: test stamina (survive without attacking for 30s)
+- Phase 3: single arrow to weak point (exposed after failed charge)
+
+### 3.3 Hanumān Combat & Movement
+**Movement Mechanics (Mobile-Optimized)**
+| Action | Input | Constraint |
+| --- | --- | --- |
+| Run | Joystick | Stamina drain |
+| Leap | Double-tap Jump | Must land on valid surface |
+| Climb | Auto-grab ledges | Stamina drain, no infinite climb |
+| Stealth | Crouch button | Visibility meter (no UI, visual feedback) |
+
+**Power Progression**
+| State | Ability | Unlock Condition |
+| --- | --- | --- |
+| Humble | Basic leap, climb | Start |
+| Devoted | Extended leap, wall-run | Find Sītā in Aśoka Grove |
+| Cosmic | Giant leap (scripted only) | Burning of Lankā escape |
+
+**Combat (Minimal)**
+- No direct combat in Lankā stealth
+- Distraction only: throw stones, create noise
+- Escape combat: if detected, flee or hide (no fighting)
+
+### 3.4 Mobile Control Scheme
+```
+┌─────────────────────────────────────┐
+│  [L-JOYSTICK]      [JUMP] [ACTION] │
+│     (Move)          (Context)     │
+│                                     │
+│           [CAMERA]                  │
+│        (Swipe to look)              │
+│                                     │
+│  [DRAW]        [STANCE]            │
+│  (Hold aim)    (Tap cycle)         │
+└─────────────────────────────────────┘
+```
+
+**Context-Sensitive Action Button**
+- Near NPC: talk
+- Near ledge: climb (Hanumān)
+- Near bow: draw (Rāma)
+- In combat: deflect/evade based on timing
+
+---
+
+## 4) Art Bible
+
+### 4.1 Color Script (Full Game)
+```
+Prologue:    #F5F5DC (Ivory) → #D4AF37 (Gold) → #87CEEB (Sky)
+Act I:       #228B22 (Forest) → #8B4513 (Earth) → #708090 (Mist)
+Act II:      #556B2F (Olive) → #CD853F (Sand) → #2F4F4F (Stone)
+Act III:     #2F2F2F (Obsidian) → #8B0000 (Crimson) → #A9A9A9 (Ash)
+Act IV:      #696969 (Gray) → #8B0000 (Blood) → #F5F5F5 (White)
+Epilogue:    #808080 (Rain) → #A52A2A (Mud) → #FFFFFF (Fade)
+```
+
+### 4.2 Character Design Specifications
+**Rāma**
+| Attribute | Specification |
+| --- | --- |
+| Height | 5'10" (average, not heroic) |
+| Build | Lean, wiry (archer’s body, not warrior) |
+| Posture | Upright but relaxed, never tense |
+| Face | Calm, slight smile, eyes that observe |
+| Clothing | Simple dhoti, no jewelry in exile |
+| Bow | Recurved, unadorned, well-worn |
+
+Sculpture reference: Chola bronze Rāma statues (10th–11th century)
+
+**Hanumān**
+| Attribute | Specification |
+| --- | --- |
+| Form | Vanara (between monkey and human) |
+| Build | Compact, powerful, controlled |
+| Posture | Often bowed, ready to spring |
+| Face | Expressive eyes, humble smile |
+| Clothing | Minimal—loincloth, sacred thread |
+| Tail | Present but not emphasized (cultural sensitivity) |
+
+Sculpture reference: Hoysala temple Hanumān (Belur, 12th century)
+
+### 4.3 Environment Art Pipeline
+**Mobile Optimization Strategy**
+| Technique | Purpose |
+| --- | --- |
+| Impostors for distant trees | Performance |
+| Vertex painting for ground | Texture variety without maps |
+| Light probes for characters | Consistent lighting, cheap |
+| Fog as aesthetic tool | Hides draw distance, creates mood |
+
+**Shader Stack (Unity URP)**
+1. Watercolor Post-Process (Prologue)
+   - Edge detection softened
+   - Color banding (8-bit look)
+   - Slight chromatic aberration for dream quality
+2. Oil Paint Post-Process (Forest)
+   - Kuwahara filter (painterly)
+   - Volumetric fog
+   - Subsurface scattering on leaves
+3. Sculpture Post-Process (Lankā/War)
+   - High contrast
+   - Sharp shadows
+   - Desaturated except key colors (crimson, gold)
+
+---
+
+## 5) Audio Plan
+
+### 5.1 Dynamic Music System
+**Layers (Mixed by Dharma State)**
+| Layer | Instrument | Trigger |
+| --- | --- | --- |
+| Drone | Tanpura / Shruti box | Always present, low volume |
+| Rhythm | Mridangam / Tabla | Combat (subtle, not driving) |
+| Melody | Veena / Flute | Exploration, safe areas |
+| Vocal | Sanskrit shlokas (whispered) | Sacred spaces, high dharma |
+| Silence | Nothing | After major events, player choice |
+
+**Dharma State Mixing**
+```
+High Dharma:    Drone 30% + Melody 60% + Vocal 40% + Rhythm 0%
+Neutral:        Drone 50% + Melody 30% + Vocal 10% + Rhythm 20%
+Low Dharma:     Drone 70% + Melody 10% + Vocal 0% + Rhythm 60% (dissonant)
+```
+
+### 5.2 Sound Design Principles
+| Element | Treatment |
+| --- | --- |
+| Footsteps | Soft, varied by surface (dirt, stone, leaf) |
+| Bow draw | Creak of wood, breath of archer |
+| Arrow hit | Thud (flesh), crack (wood), silence (miss) |
+| Hanumān leaps | Wind rush, minimal vocalization |
+| Fire | Low rumble, not crackling (ominous) |
+| Battle | Distant drums, no individual clash sounds |
+
+### 5.3 Voice Direction
+- No full voice acting (mobile constraints + tonal choice)
+- Sanskrit whispers as ambient layer
+- Text subtitles for all dialogue
+- Emotional sounds only: breath, effort, impact
+
+---
+
+## 6) Playable Vertical Slice (Prologue)
+
+### 6.1 Scope Definition
+- **Deliverable:** Unity project with 3 complete sequences
+- **Target platform:** Android (Pixel 6 baseline)
+- **Performance target:** 45 FPS stable
+
+**Included Content**
+| Sequence | Content | Duration |
+| --- | --- | --- |
+| Prologue Walk | Child Rāma, Ayodhyā dawn | 8 min |
+| Combat Tutorial | Adult Rāma, sparring with Lakṣmaṇa | 5 min |
+| Cinematic | Exile departure, fade to forest | 4 min |
+
+### 6.2 Technical Implementation
+**Unity Project Structure**
+```
+Assets/
+├── _Project/
+│   ├── Scenes/
+│   │   ├── Prologue_Ayodhya.unity
+│   │   ├── Tutorial_Combat.unity
+│   │   └── Cinematic_Exile.unity
+│   ├── Scripts/
+│   │   ├── Core/
+│   │   │   ├── GameManager.cs
+│   │   │   ├── InputHandler.cs
+│   │   │   └── SaveSystem.cs
+│   │   ├── Player/
+│   │   │   ├── PlayerController.cs (abstract)
+│   │   │   ├── RamaController.cs
+│   │   │   └── ChildRamaController.cs
+│   │   ├── Dharma/
+│   │   │   ├── DharmaSystem.cs
+│   │   │   └── WorldStateManager.cs
+│   │   └── Cinematics/
+│   │       ├── CinematicManager.cs
+│   │       └── TimelineTriggers.cs
+│   ├── Art/
+│   │   ├── Materials/
+│   │   │   ├── Watercolor_Ayodhya.mat
+│   │   │   └── OilPaint_Forest.mat
+│   │   ├── Models/
+│   │   │   ├── Characters/
+│   │   │   └── Environments/
+│   │   └── Shaders/
+│   │       ├── WatercolorPostProcess.shader
+│   │       └── OilPaintPostProcess.shader
+│   ├── Audio/
+│   │   ├── Music/
+│   │   ├── Ambient/
+│   │   └── SFX/
+│   └── Prefabs/
+│       ├── Player/
+│       ├── NPCs/
+│       └── Environment/
+```
+
+**Core Script Skeletons (Production-Ready)**
+```csharp
+// PlayerController.cs - Abstract Base
+using UnityEngine;
+
+public abstract class PlayerController : MonoBehaviour
+{
+    [Header("Base Stats")]
+    [SerializeField] protected float maxStamina = 100f;
+    [SerializeField] protected float moveSpeed = 5f;
+
+    protected float currentStamina;
+    protected Vector2 moveInput;
+    protected bool isInCinematic;
+
+    // Mobile input buffer
+    protected Vector2 joystickInput;
+    protected bool actionPressed;
+    protected bool actionHeld;
+
+    public virtual void Initialize()
+    {
+        currentStamina = maxStamina;
+        isInCinematic = false;
+    }
+
+    public abstract void ProcessMovement(Vector2 input);
+    public abstract void ProcessAction(bool pressed, bool held);
+    public abstract void ProcessCamera(Vector2 lookInput);
+
+    protected virtual void UpdateStamina(float delta)
+    {
+        currentStamina = Mathf.Clamp(currentStamina + delta, 0, maxStamina);
+        // Notify UI (event-driven, no direct reference)
+        StaminaChanged?.Invoke(currentStamina / maxStamina);
+    }
+
+    public event System.Action<float> StaminaChanged;
+    public event System.Action<bool> CinematicStateChanged;
+
+    public void SetCinematicState(bool inCinematic)
+    {
+        isInCinematic = inCinematic;
+        CinematicStateChanged?.Invoke(inCinematic);
+    }
+}
+```
+
+```csharp
+// ChildRamaController.cs - Prologue Only
+using UnityEngine;
+
+public class ChildRamaController : PlayerController
+{
+    [Header("Child Specific")]
+    [SerializeField] private float walkSpeed = 2.5f;
+    [SerializeField] private float runSpeed = 4f; // Not used in prologue, but available
+
+    private CharacterController controller;
+    private Camera mainCamera;
+
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+        mainCamera = Camera.main;
+        Initialize();
+
+        // Prologue: Force walk speed
+        moveSpeed = walkSpeed;
+    }
+
+    public override void ProcessMovement(Vector2 input)
+    {
+        if (isInCinematic) return;
+
+        // Simple movement, no stamina cost for child
+        Vector3 move = new Vector3(input.x, 0, input.y);
+
+        // Camera-relative movement
+        move = mainCamera.transform.TransformDirection(move);
+        move.y = 0;
+        move.Normalize();
+
+        controller.Move(move * moveSpeed * Time.deltaTime);
+
+        // Rotation
+        if (move.magnitude > 0.1f)
+        {
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                Quaternion.LookRotation(move),
+                10f * Time.deltaTime
+            );
+        }
+    }
+
+    public override void ProcessAction(bool pressed, bool held)
+    {
+        if (isInCinematic) return;
+
+        // Child can only "observe" - no combat
+        if (pressed)
+        {
+            if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 2f))
+            {
+                var interactable = hit.collider.GetComponent<IInteractable>();
+                interactable?.Interact(this);
+            }
+        }
+    }
+
+    public override void ProcessCamera(Vector2 lookInput)
+    {
+        // Prologue: Camera is mostly fixed, slight offset allowed
+        // Implemented via Cinemachine, not direct control
+    }
+}
+```
+
+```csharp
+// DharmaSystem.cs - Core Moral Engine
+using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+
+public class DharmaSystem : MonoBehaviour
+{
+    [Header("Dharma Settings")]
+    [SerializeField] private float maxDharma = 100f;
+    [SerializeField] private float startingDharma = 50f;
+    [SerializeField] private float decayRate = 0.5f; // Passive decay per minute
+
+    [Header("World Feedback")]
+    [SerializeField] private Volume postProcessVolume;
+    [SerializeField] private AudioMixerGroup musicMixer;
+
+    private float currentDharma;
+    private ColorAdjustments colorAdjustments;
+    private Vignette vignette;
+
+    public static DharmaSystem Instance { get; private set; }
+    public event System.Action<float> OnDharmaChanged; // 0-1 normalized
+    public event System.Action<DharmaTier> OnTierChanged;
+
+    public enum DharmaTier { Sattvic, Rajasic, Tamasic }
+    private DharmaTier currentTier;
+
+    void Awake()
+    {
+        Instance = this;
+        currentDharma = startingDharma;
+
+        if (postProcessVolume.profile.TryGet(out colorAdjustments) &&
+            postProcessVolume.profile.TryGet(out vignette))
+        {
+            UpdateWorldState();
+        }
+    }
+
+    void Update()
+    {
+        ModifyDharma(-decayRate * Time.deltaTime / 60f);
+    }
+
+    public void RegisterAction(ActionType type)
+    {
+        float change = type switch
+        {
+            ActionType.Restraint => 5f,
+            ActionType.Defense => 3f,
+            ActionType.Neutral => 0f,
+            ActionType.Aggression => -5f,
+            ActionType.Cruelty => -10f,
+            _ => 0f
+        };
+
+        ModifyDharma(change);
+    }
+
+    private void ModifyDharma(float amount)
+    {
+        currentDharma = Mathf.Clamp(currentDharma + amount, 0, maxDharma);
+
+        float normalized = currentDharma / maxDharma;
+        OnDharmaChanged?.Invoke(normalized);
+
+        DharmaTier newTier = GetTier(normalized);
+        if (newTier != currentTier)
+        {
+            currentTier = newTier;
+            OnTierChanged?.Invoke(newTier);
+        }
+
+        UpdateWorldState();
+    }
+
+    private DharmaTier GetTier(float normalized)
+    {
+        return normalized switch
+        {
+            > 0.66f => DharmaTier.Sattvic,
+            > 0.33f => DharmaTier.Rajasic,
+            _ => DharmaTier.Tamasic
+        };
+    }
+
+    private void UpdateWorldState()
+    {
+        float normalized = currentDharma / maxDharma;
+
+        if (colorAdjustments != null)
+        {
+            colorAdjustments.saturation.value = Mathf.Lerp(-50f, 20f, normalized);
+            colorAdjustments.contrast.value = Mathf.Lerp(20f, 0f, normalized);
+        }
+
+        if (vignette != null)
+        {
+            vignette.intensity.value = Mathf.Lerp(0.6f, 0.1f, normalized);
+        }
+
+        UpdateAudioMix(normalized);
+    }
+
+    private void UpdateAudioMix(float normalized)
+    {
+        // Crossfade between mixer snapshots based on dharma
+        // Implementation depends on AudioMixer setup
+    }
+
+    public enum ActionType
+    {
+        Restraint,
+        Defense,
+        Neutral,
+        Aggression,
+        Cruelty
+    }
+}
+```
+
+```csharp
+// CinematicManager.cs - Timeline Control
+using UnityEngine;
+using UnityEngine.Playables;
+using UnityEngine.Timeline;
+
+public class CinematicManager : MonoBehaviour
+{
+    [Header("Timeline Assets")]
+    [SerializeField] private PlayableDirector director;
+    [SerializeField] private TimelineAsset[] cinematicSequences;
+
+    private PlayerController currentPlayer;
+
+    public void PlayCinematic(string sequenceId, PlayerController player)
+    {
+        currentPlayer = player;
+
+        var sequence = System.Array.Find(cinematicSequences,
+            s => s.name == sequenceId);
+
+        if (sequence == null)
+        {
+            Debug.LogError($"Cinematic {sequenceId} not found");
+            return;
+        }
+
+        player.SetCinematicState(true);
+        director.playableAsset = sequence;
+
+        foreach (var output in sequence.outputs)
+        {
+            if (output.streamName == "PlayerAnimation")
+            {
+                director.SetGenericBinding(output.sourceObject, player.GetComponent<Animator>());
+            }
+        }
+
+        director.Play();
+        director.stopped += OnCinematicEnded;
+    }
+
+    private void OnCinematicEnded(PlayableDirector obj)
+    {
+        director.stopped -= OnCinematicEnded;
+        currentPlayer?.SetCinematicState(false);
+    }
+}
+```
+
+### 6.3 Quality Gates (QA Checklist)
+| Gate | Test | Pass Criteria |
+| --- | --- | --- |
+| Performance | 30 min playthrough | 45 FPS minimum, no drops below 30 |
+| Memory | Profile on Pixel 6 | < 2GB RAM usage |
+| Battery | 1 hour play | < 15% drain per hour |
+| Controls | 10 new users | Complete prologue without tutorial text |
+| Emotion | Focus group (n=20) | 80% report “calm” or “peaceful” feeling |
+| Dharma | Telemetry | Players vary dharma state (not always high) |
+
+---
+
+## 7) Development Roadmap
+
+### Phase 1: Vertical Slice (8 weeks)
+| Week | Deliverable | Owner |
+| --- | --- | --- |
+| 1–2 | Prologue greybox, movement | Level Design |
+| 3–4 | Watercolor shader, Ayodhyā art | Art |
+| 5–6 | Child Rāma controller, input | Engineering |
+| 7 | Audio integration, mixing | Audio |
+| 8 | Polish, QA, gate review | All |
+
+**Gate:** Must achieve “serene” feeling in playtest or restart.
+
+### Phase 2: Act I (12 weeks)
+- Forest environments
+- Combat system
+- Dharma system fully implemented
+- First boss (Khara)
+
+### Phase 3: Acts II–III (12 weeks)
+- Hanumān movement
+- Stealth systems
+- Lankā environments
+- Burning sequence
+
+### Phase 4: Act IV + Epilogue (10 weeks)
+- Battlefield tech
+- War sequences
+- Final polish
+- Certification
+
+---
+
+## 8) Risk Mitigation
+| Risk | Mitigation |
+| --- | --- |
+| Mobile performance | URP from day one; stylized, not realistic |
+| Cultural sensitivity | Scholar review at each milestone |
+| Market fit | Premium positioning; no F2P mechanics |
+| Scope creep | Strict chapter locks; no side quests |
+| Emotional resonance | Playtest every 2 weeks; pivot if needed |
+
+---
+
+## Final Sign-Off
+This document represents the complete creative and technical specification for **Rāmāyaṇa: Dharma Path**. All agents have contributed to a cohesive vision that treats mobile limitations as aesthetic discipline, not constraints. The game is ready for production.
+
+**Document Version:** 1.0
+**Date:** 2026-02-05
+**Status:** Approved for Vertical Slice
